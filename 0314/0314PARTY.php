@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <form action="result.php" method="post">
+    <form action="0314REPLY.php" method="post">
         <label for="name">輸入姓名:</label>
         <input type="text" name="name" value="" placeholder="輸入中文姓名">
         <br>
