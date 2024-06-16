@@ -89,10 +89,10 @@
         session_start();
         if(isset($_SESSION["check"])) {
             if($_SESSION["check"] != "Yes") {
-                header("Location:fail.php");
+                header("Location:0321fail.php");
             }
         } else {
-            header("Location:fail.php");
+            header("Location:0321fail.php");
         }
     ?>
 </body>
