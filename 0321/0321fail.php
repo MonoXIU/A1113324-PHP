@@ -12,11 +12,11 @@
         if (isset($_SESSION["check"])) {
             echo "登入失敗<br>";
             echo "3秒後跳轉回首頁";
-            header("Refresh:3;url=login.php");
+            header("Refresh:3;url=0321login.php");
         } else {
             echo "非法進入網頁<br>";
             echo "3秒後跳轉回首頁";
-            header("Refresh:3;url=login.php");
+            header("Refresh:3;url=0321login.php");
         } 
     ?>
 </body>
