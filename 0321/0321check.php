@@ -17,10 +17,10 @@
         $pwd = $_POST["pwd"];
         if($id == $uid && $pwd == $upwd){
             $_SESSION["check"] = "Yes";
-            header("Location:success.php");
+            header("Location:0321pass.php");
         }else{
             $_SESSION["check"] = "No";
-            header("Location:fail.php");
+            header("Location:0321fail.php");
         }
     ?>
 </body>
