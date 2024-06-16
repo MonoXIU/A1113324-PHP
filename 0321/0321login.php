@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <form action="check.php" method="post">
+    <form action="0321check.php" method="post">
         <label for="id">帳號:</label>
         <input type="text" id="id" name="id">
         <br>
